@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Calculator</title>
-    <h1>Calculator</h1>
+    <h1>Welcome to the BMI Calculator!</h1>
 </head>
 <body>
-    <form action="/" method="POST">
-        <input type="text" name="num1" placeholder="first number" required>
-        <input type="text" name="num2" placeholder="second number" required>
-        <button type="submit" name="submit">Calculate</button>
-    </form>
-    
+    <p>
+        <h2>Instructions : </h2>
+        Enter your weight in kilograms and your height in centimeters, and hit Calculate!
+    </p>
+    <div class="form">
+        <form action="/" method="POST">
+            <input type="text" name="num1" placeholder="Enter your weight in kg" required>
+            <input type="text" name="num2" placeholder="Enter your height in cm" required>
+            <button type="submit" name="submit">Calculate</button>
+        </form> 
+    </div>
 </body>
 </html> 
