@@ -1,4 +1,3 @@
-# Rujin_Shrestha
-#BMI Calculator
+# BMI Calculator
 
 First program with javascript. getting started
